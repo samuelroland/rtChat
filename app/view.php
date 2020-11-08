@@ -41,12 +41,12 @@ ob_start();
     </head>
     <body>
     <div class="flexdiv">
-        <a href="/rtChat/" class="alert-link">
+        <a href="?" class="alert-link">
             <div style="background-color: #4eb5e2" class="m-1 p-2">
                 <h1 class=" m-1" style="display: inline">rtChat</h1><span>v1.1</span>
             </div>
         </a>
-        <?php echo(isset($_SESSION['user']) ? "<h4 class=\"alignright flex-2 p-2 m-1\">Connecté: {$_SESSION['user']['firstname']} {$_SESSION['user']['lastname']}</h4><a href='?action=logout'><button class='p-2 m-1'>Déconnexion</button></a></div>" : "<h4 class='p-2 m-1'>Non connecté...</h4></div>");
+        <?php echo(isset($_SESSION['user']) ? "<h4 class=\"box-alignright flex-2 p-2 m-1 box-verticalaligncenter\">Connecté: {$_SESSION['user']['firstname']} {$_SESSION['user']['lastname']}</h4><a href='?action=logout' class='box-verticalaligncenter'><button class='p-2 m-1'>Déconnexion</button></a></div>" : "<h4 class='p-2 m-1 box-verticalaligncenter'>Non connecté...</h4></div>");
         if (isset($_SESSION['user']) == false) {
             ?>
             <form action="?action=login" method="post" class="p-2 m-1">

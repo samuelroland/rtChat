@@ -98,3 +98,7 @@ button:hover {
 .frmnewConv {
     border: 2px solid #b3d7ff;
 }
+
+#listConv {
+    min-width: 320px;
+}
