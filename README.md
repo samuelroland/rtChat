@@ -1,25 +1,25 @@
 # rtChat
 A very basic real time chat in a web app to put into practice Ajax and asynchronous requests.
-![banner](img/banner.png)
+![banner](img/banner.PNG)
 
 ## Introduction
 This little project has been realized in approximately 12 hours. The code is not very good (not commented, variables names are not good chosen in several cases, ...) but the goal of this challenge was not to have a good quality but to realize a real time chat in a very short time, to put into practice Ajax after [an online course on OpenClassrooms](https://openclassrooms.com/fr/courses/5543061-ecrivez-du-javascript-pour-le-web) and have a little better understanding with asynchronous execution.
 
 ## Interface
 The login:  
-![banner](img/login.png)
+![login](img/login.PNG)
 
 A private conversation displayed:  
-![banner](img/pm.png)
+![pm](img/pm.PNG)
 
 A group conversation displayed:  
-![banner](img/group.png)
+![group](img/group.PNG)
 
 Notifications new messages are detected:  
-![banner](img/notifications.png)
+![notifications](img/notifications.PNG)
 
 Little form to create a conversation:  
-![banner](img/createconv.png)
+![create conversation](img/createconv.PNG)
 
 ## Features:
 List of little features implemented:
