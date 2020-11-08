@@ -1,5 +1,4 @@
 # rtChat
-A very basic real time chat in a web app to put into practice Ajax and asynchronous requests.
 ![banner](img/banner.PNG)
 
 ## Introduction
