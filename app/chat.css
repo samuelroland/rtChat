@@ -1,0 +1,100 @@
+/**
+ *  Project: KanFF
+ *  File: styles.css global css
+ *  Author: Team
+ *  Creation date: 26.04.2020
+ */
+
+.total {
+    height: 900px;
+    background-color: #1abc9c;
+}
+
+.oneConv {
+    height: auto;
+    background-color: #ff8f00ba;
+    margin: 2px;
+    padding: 10px;
+}
+
+.oneConv:hover {
+    background-color: #ff8f00;
+}
+
+.convSelect {
+    background-color: #f3cd97;
+}
+
+.convSelect:hover {
+    background-color: #f3cd97;
+}
+
+.newConv {
+    padding: 20px 10px;
+    height: auto;
+    background-color: #ff8f00ba;
+    margin: 2px;
+}
+
+.divMsgs {
+    background-color: #4fb6e3;
+    display: flex;
+    align-items: end;
+}
+
+#divMsgsDetails {
+    padding: 5px;
+}
+
+.divSending {
+
+}
+
+.divDetails {
+    width: 100%;
+}
+
+.oneMsg {
+    background-color: #b3d7ff;
+    margin: 10px 5px;
+    width: max-content;
+    border: 2px solid white;
+    max-width: 600px;
+    padding: 3px;
+}
+
+.txtSend {
+    background-color: #95c7ff;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px;
+    color: #00428c;
+}
+
+.takeplace {
+    color: #e2e7f0;
+}
+
+.divButtons button {
+    margin: 5px;
+}
+
+.divButtons {
+    width: min-content;
+}
+
+button:hover {
+    background-color: #b3d7ff;
+}
+
+.imgIcon {
+    height: 50px;
+}
+
+.imgIcon:hover {
+    background-color: #95c7ff;
+}
+
+.frmnewConv {
+    border: 2px solid #b3d7ff;
+}

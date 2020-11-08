@@ -1,0 +1,7 @@
+.idea/
+node_modules/
+insert_grade/.const.php
+*.bak
+.const.php
+~*
+package-lock.json
