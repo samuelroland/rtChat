@@ -27,7 +27,7 @@ A private conversation displayed:
 A group conversation displayed:  
 ![group](img/group.PNG)
 
-Notifications when new messages are detected:  
+Notifications when new messages are detected:
 ![notifications](img/notifications.PNG)
 
 Little form to create a conversation:  
@@ -68,7 +68,7 @@ $debug = false;
 
 ## The database:
 The logic data model is here (you can modify this schema with the MySQL Workbench file `db/db-rtchat.mwb`):  
-![MLD](db/db-rtchat.PNG)
+![MLD](db/db-rtchat.png)
 
 ## How the real time mode works ?
 When real time mode is enabled, the browser send a request frequently (like every second) for each conversation, to ask the server if there is new messages. As my database doesn't contain any fields about unread or read status, the app need to send the last displayed message id to be able to send only messages that are sent after this one.
