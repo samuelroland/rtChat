@@ -27,7 +27,7 @@ A private conversation displayed:
 A group conversation displayed:  
 ![group](img/group.PNG)
 
-Notifications when new messages are detected:
+Notifications when new messages are detected:  
 ![notifications](img/notifications.PNG)
 
 Little form to create a conversation:  
